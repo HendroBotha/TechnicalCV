@@ -6,7 +6,7 @@ h1{
 
   @keyframes backgroundScroll {
     from {background-position: 0 0;}
-    to {background-position: -180px 0px;}
+    to {background-position: -300px 0px;}
     }
 
     
@@ -18,18 +18,50 @@ h1{
         body {
             color:#fff;
             text-align:center;
-            background-image: url("/main/css/image/erol-ahmed-FTy5VSGIfiQ-unsplash.jpg");
+            background-image: url("/main/css/image/bg.jpg") ;
             background-repeat: repeat;
             background-attachment: fixed;
             background-size: cover;
-            font-size: 12px;
+            font-size: 100px;
             font-family: ‘Dancing Script’, cursive;
-            -webkit-animation: backgroundScroll 60s linear infinite;
+            -webkit-animation: backgroundScroll 180s linear infinite;
             -webkit-animation-fill-mode: forwards;
-            animation: backgroundScroll 60s linear 1;
+            animation: backgroundScroll 180s linear infinite;
             animation-fill-mode: forwards;
             }
 
+            
+h3 {
+    animation-duration: 8s;
+    animation-name: slideInLeft;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
 /* @keyframes mymove {
     from {top: 0px;}
     to {top: 200px;}
