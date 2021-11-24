@@ -1,8 +1,34 @@
 @import url("fontawesome-all.min.css");
 
 h1{
-    color: blue;
+    color: rgb(164, 235, 32);
 }
+
+  @keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+    }
+
+    
+    @-webkit-keyframes backgroundScroll {
+        from {background-position: 0 0;}
+        to {background-position: -180px 0px;}
+        }
+
+        body {
+            color:#fff;
+            text-align:center;
+            background-image: url("/main/css/image/erol-ahmed-FTy5VSGIfiQ-unsplash.jpg");
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-size: 12px;
+            font-family: ‘Dancing Script’, cursive;
+            -webkit-animation: backgroundScroll 60s linear infinite;
+            -webkit-animation-fill-mode: forwards;
+            animation: backgroundScroll 60s linear 1;
+            animation-fill-mode: forwards;
+            }
 
 /* @keyframes mymove {
     from {top: 0px;}
