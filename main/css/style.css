@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 
-h1{
+/* h1{
     color: rgb(164, 235, 32);
 }
 
@@ -61,7 +61,7 @@ h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
     }
-  }
+  } */
 /* @keyframes mymove {
     from {top: 0px;}
     to {top: 200px;}
