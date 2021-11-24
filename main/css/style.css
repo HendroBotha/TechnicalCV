@@ -3,3 +3,35 @@
 h1{
     color: blue;
 }
+
+/* @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }*/
+
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+  } 
+
+  .box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-delay: 1s;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
