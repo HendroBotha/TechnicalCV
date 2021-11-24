@@ -3,19 +3,40 @@
 <html>
     <head>
         <title>Hendro Botha's Technical-CV</title>
-		<meta charset="utf-8" />
+		<style>
+            #middle {
+              top: 50%;
+              left: 50%;
+              width: 30em;
+              height: 18em;
+              transform: translate(-50%, -50%);
+              border: 1px solid #666;
+              background-color: #b9faac;
+              border-radius: 10%;
+              position: fixed;
+            }
+          </style>
+        <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <script src="https://kit.fontawesome.com/804440178b.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="main/css/style.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <div>
-            <h1>Hello world</h1>
+        
+        <div id="middle">
+            <h1>Hendro Botha</h1>
+            <h1>Technical-CV</h1>
+            <i class="fas fa-clock fa-2xl"></i>
+            <p style="font-size: xx-large;"><i class="fas fa-solid fa-coffee fa-2xl"></i> When my six o’clock alarm buzzes, I require a pot of good java.</p>
+            <button>
+                <p><i class="fas fa-solid fa-coffee fa-2xl"></i> When my six o’clock alarm buzzes, I require a pot of good java.</p>
+              </button>
         </div>
-        <!-- <i class="fab fa-github"></i>
-            <i class="fab fa-facebook"></i>
-         -->
+    
+         <!-- <i class="fab fa-github"></i> 
+            <i class="fab fa-facebook"></i> -->
+        
         <!-- <a href="https://github.com/HendroBotha?tab=repositories" class="icon brands fa-github"><span class="label">Github</span></a> -->
         <!-- <div class="box">
             
@@ -29,8 +50,9 @@
                 <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
         </nav> -->
-        
-        <div class="loader-wrapper">
+        <!-- <button onclick="typeWriter()">Click me</button>
+        <p id="demo" style="font-size: 100px;"></p> -->
+        <!-- <div class="loader-wrapper">
             <span class="loader"></span>
             <span class="loader2"></span>
             <span class="loader3"></span>
@@ -39,10 +61,24 @@
         <script>
             $(window).on("load", function()
             {
-                $(".loader-wrapper").delay(4000).fadeOut("slow");
+                $(".loader-wrapper").delay(5000).fadeOut("slow");
             });
-        </script>
+        </script> -->
+        <!-- <script>
+                var i = 0;
+                var txt = 'Lorem ipsum dummy text blabla.';
+                var speed = 100;
+
+                function typeWriter() {
+                     if (i < txt.length) {
+                        document.getElementById("demo").innerHTML += txt.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, speed);
+                    }
+}
+        </script> -->
     
-    </body>   
+    </body>
+    
 
 </html>
