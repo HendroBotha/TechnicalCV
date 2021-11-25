@@ -1,0 +1,142 @@
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+body {
+  background-color: #f54316;
+  background: linear-gradient(150deg, #fdcd3b 60%, #ffed4b 10%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 40%;
+    min-width: 570px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.container{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+} 
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.skillbar1 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #04f804;
+   
+ 
+}
+
+#github-bar1{
+    animation: github-fill 7s forwards;
+}
+@keyframes github-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+.skillbar2 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #0a9be9;
+   
+ 
+}
+
+#html-bar2{
+    animation: html-fill 6s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 70%;
+    }
+}
+.skillbar3 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #146fd8;
+   
+ 
+}
+
+#css-bar3{
+    animation: css-fill 5s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 65%;
+    }
+}
+
+.skillbar4 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f3f706;
+   
+ 
+}
+
+#bootstrap-bar4{
+    animation: bootstrap-fill 4s forwards;
+}
+@keyframes bootstrap-fill{
+    100%{
+        width: 35%;
+    }
+}
+
+.skillbar5 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fa0c0c;
+   
+ 
+}
+
+#fontawesome-bar5{
+    animation: fontawesome-fill 3s forwards;
+}
+@keyframes fontawesome-fill{
+    100%{
+        width: 30%;
+    }
+}
