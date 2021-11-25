@@ -1,0 +1,219 @@
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+body {
+  background-color: #f54316;
+  background: linear-gradient(150deg, #fdcd3b 60%, #ffed4b 10%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 40%;
+    min-width: 570px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.container{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+} 
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.skillbar1 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #04f804;
+   
+ 
+}
+
+#office-bar1{
+    animation: office-fill 7s forwards;
+}
+@keyframes office-fill{
+    100%{
+        width: 80%;
+    }
+}
+
+.skillbar2 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #1fc042;
+   
+ 
+}
+
+#visual-bar2{
+    animation: visual-fill 6s forwards;
+}
+@keyframes visual-fill{
+    100%{
+        width: 70%;
+    }
+}
+.skillbar3 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #0fc71f;
+   
+ 
+}
+
+#oracle-bar3{
+    animation: oracle-fill 5s forwards;
+}
+@keyframes oracle-fill{
+    100%{
+        width: 78%;
+    }
+}
+
+.skillbar4 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #1e0feb;
+   
+ 
+}
+
+#code-bar4{
+    animation: code-fill 4s forwards;
+}
+@keyframes code-fill{
+    100%{
+        width: 68%;
+    }
+}
+
+.skillbar5 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f18b06;
+   
+ 
+}
+
+#django-bar5{
+    animation: django-fill 3s forwards;
+}
+@keyframes django-fill{
+    100%{
+        width: 48%;
+    }
+}
+
+.skillbar6 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fa0c0c;
+   
+ 
+}
+
+#python-bar6{
+    animation: python-fill 3s forwards;
+}
+@keyframes python-fill{
+    100%{
+        width: 30%;
+    }
+}
+
+.skillbar7 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fa0c0c;
+   
+ 
+}
+
+#C-bar7{
+    animation: C-fill 3s forwards;
+}
+@keyframes C-fill{
+    100%{
+        width: 40%;
+    }
+}
+
+.skillbar8 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #faf60c;
+   
+ 
+}
+
+#java-bar8{
+    animation: java-fill 3s forwards;
+}
+@keyframes java-fill{
+    100%{
+        width: 35%;
+    }
+}
+
+.skillbar9 div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #cc3434;
+   
+ 
+}
+
+#script-bar9{
+    animation: script-fill 3s forwards;
+}
+@keyframes script-fill{
+    100%{
+        width: 32%;
+    }
+}
+
