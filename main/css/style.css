@@ -113,7 +113,7 @@ h2 {
 
 body {
   background-color: #f54316;
-  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%, #7409ff 100%);
+  background: linear-gradient(150deg, #fdcd3b 60%, #ffed4b 10%);
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -129,7 +129,7 @@ body {
     top: 0;
     left: 0;
     /* background-color: rgb(21, 26, 16); */
-    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%, #7409ff 100%); 
+    background: linear-gradient(150deg, #fdcd3b 60%, #ffed4b 60%); 
 
     display: flex;
     justify-content: center;
