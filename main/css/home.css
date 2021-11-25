@@ -4,10 +4,23 @@ body, html {
     height: 100%;
     text-align: center;
 }
+/* h1{
+  font-family: sans-serif;
+  font-size: 10vw;
+}
+h2{
+  font-family: sans-serif;
+  font-size: 10vw;
+}
+h3{
+  font-family: sans-serif;
+  font-size: 10vw;
+} */
 
 body {
     background-color: #f54316;
     background: linear-gradient(#09101f,#CBD0D8 );
+    animation: fadeInAnimation ease 10s;
     /* animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; */
@@ -16,6 +29,14 @@ body {
     transition: opacity 5s;
     margin: 0; */
   }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
   .myButton {
     box-shadow:inset 0px 1px 3px 0px #141414;
     background:linear-gradient(to bottom, #d3ac2b 5%, #d3ac2b 100%);
@@ -54,7 +75,7 @@ body {
       margin: 0;
       line-height: 50px;
       text-align: center;
-      animation: flyinfromright 0s ease-out 
+      animation: flyinfromright 3s ease-out 
     }
 
     @keyframes flyinfromright{
@@ -79,7 +100,7 @@ body {
         margin: 0;
         line-height: 50px;
         text-align: center;
-        animation: flyinfromleft 0s ease-out 
+        animation: flyinfromleft 3s ease-out 
       }
   
       /* @keyframes flyinfromleft{
@@ -129,7 +150,7 @@ body {
         margin: 0;
         line-height: 50px;
         text-align: center;
-        animation: flyinfromright2 0s ease-out 
+        animation: flyinfromright2 3s ease-out 
       }
 
       @keyframes flyinfromright2{
