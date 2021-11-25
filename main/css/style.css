@@ -1,7 +1,19 @@
 @import url("fontawesome-all.min.css");
-h2{
+h1
+{
+  color: white;
   font-size: 17px;
+  text-shadow: 6px 6px 3px rgb(7, 1, 1);
+  font-family: sans-serif;
 }
+h2
+{
+  color: white;
+  font-size: 17px;
+  text-shadow: 6px 6px 3px rgb(7, 1, 1);
+  font-family: sans-serif;
+}
+
 
 /* h1{
     color: rgb(164, 235, 32);

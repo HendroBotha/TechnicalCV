@@ -5,7 +5,27 @@ body, html {
 
 body {
   background-color: #f54316;
-  background: linear-gradient(150deg, #fdcd3b 60%, #ffed4b 10%);
+  background: linear-gradient(#ff0000,
+  #f20000,
+  #e60000,
+  #d90000,
+  #cc0000,
+  #bf0000,
+  #b20000,
+  #a60000,
+  #990000,
+  #8c0000,
+  #800000,
+  #730000,
+  #660000,
+  #590000,
+  #4d0000,
+  #400000,
+  #330000,
+  #260000,
+  #190000,
+  #0d0000,
+#000000);
 }
 
 *{
@@ -34,4 +54,7 @@ body {
     color: black;
     font-weight: 500;
 }
-
+h1{
+    color: white;
+    font-size: 10vw;
+}
