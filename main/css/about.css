@@ -1,0 +1,9 @@
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+body {
+  background-color: #f54316;
+  background: linear-gradient(150deg, #fdcd3b 60%, #ffed4b 10%);
+}
