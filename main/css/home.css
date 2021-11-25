@@ -1,0 +1,18 @@
+@import url("fontawesome-all.min.css");
+
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: #f54316;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%, #7409ff 100%);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* animation-duration: 10s; */
+    /*opacity: 10;
+    transition: opacity 5s;
+    margin: 0; */
+  }

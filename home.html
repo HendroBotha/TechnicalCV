@@ -3,13 +3,34 @@
 <html>
     <head>
         <title>Home</title>
+        <style>
+            #middle {
+              top: 50%;
+              left: 50%;
+              width: 30em;
+              height: 18em;
+              transform: translate(-50%, -50%);
+              border: 1px solid #666;
+              background-color: #b9faac;
+              border-radius: 10%;
+              position: fixed;
+            }
+          </style>
         <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <script src="https://kit.fontawesome.com/804440178b.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="main/css/style.css" />
+		<link rel="stylesheet" href="main/css/home.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <h1>Hello World! Testing new Page!</h1>
+        <div id="middle">
+            <h1>Hendro Botha</h1>
+            <h1>Technical-CV</h1>
+             <a href="home.html">
+                <button>
+                    <p><i class="fas fa-solid fa-coffee fa-2xl"></i> Press to Continue</p>
+                  </button>
+                </a>
+        </div>
     </body>
 </html>
