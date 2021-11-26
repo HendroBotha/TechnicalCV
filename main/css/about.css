@@ -4,6 +4,32 @@ body, html {
     overflow-x: hidden;
 }
 
+.myButton {
+  box-shadow:inset 0px 1px 3px 0px #141414;
+  background:linear-gradient(to bottom, #d3ac2b 5%, #d3ac2b 100%);
+  background-color:#d3ac2b;
+  border-radius:5px;
+  border:1px solid #566963;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  padding:15px 26px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #020505;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #d3ac2b 5%, #d3ac2b 100%);
+  background-color:#d3ac2b;
+  color:#000000;
+  background-color: #FFFFFF
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
 body {
   
   background: linear-gradient(#09101f,#CBD0D8);
