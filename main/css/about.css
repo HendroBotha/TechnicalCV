@@ -1,31 +1,86 @@
 body, html {
     height: 100%;
     text-align: center;
+    overflow-x: hidden;
 }
 
 body {
-  background-color: #f54316;
-  background: linear-gradient(#ff0000,
-  #f20000,
-  #e60000,
-  #d90000,
-  #cc0000,
-  #bf0000,
-  #b20000,
-  #a60000,
-  #990000,
-  #8c0000,
-  #800000,
-  #730000,
-  #660000,
-  #590000,
-  #4d0000,
-  #400000,
-  #330000,
-  #260000,
-  #190000,
-  #0d0000,
-#000000);
+  
+  background: linear-gradient(#09101f,#CBD0D8);
+  overflow: linear-gradient(#CBD0D8,#09101f);
+}
+h1
+{
+  color: white;
+  font-size: 5vw;
+  text-shadow: 6px 6px 3px rgb(7, 1, 1);
+  animation: fadeInAnimation ease 5s;
+}
+ h2
+{
+  color: white;
+  font-size: 3vw;
+  text-shadow: 2px 2px 1px rgb(7, 1, 1);
+  animation: fadeInAnimation ease 10s
+}
+p{
+  color: white;
+  font-size: 3vw;
+  text-shadow: 2px 2px 1px rgb(7, 1, 1);
+  animation: fadeInAnimation ease 10s
+
+}
+/* @media screen and (min-width: 281px) {
+    div.example {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 280px) {
+    div.example {
+      font-size: 20px;
+    }
+  } */
+/*
+h3
+{
+  color: white;
+  font-size: 17px;
+  text-shadow: 6px 6px 3px rgb(7, 1, 1);
+  animation: fadeInAnimation ease 5s;
+} */
+.flyinfrombelow{
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+ .flyinfrombelow p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    animation: flyinfrombelow 3s ease-out 
+  }
+
+  @keyframes flyinfrombelow{
+      0%{
+          transform: translateY(200%)
+      }
+      100%{
+          transform: translateY(0%);
+      }
+  }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 *{
@@ -54,7 +109,7 @@ body {
     color: black;
     font-weight: 500;
 }
-h1{
+/* h1{
     color: white;
     font-size: 10vw;
-}
+} */

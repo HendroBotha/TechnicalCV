@@ -4,14 +4,13 @@ h1
   color: white;
   font-size: 17px;
   text-shadow: 6px 6px 3px rgb(7, 1, 1);
-  font-family: sans-serif;
 }
 h2
 {
   color: white;
   font-size: 30px;
   text-shadow: 3px 3px 1px rgb(7, 1, 1);
-  font-family: sans-serif;
+  
 }
 .myButton {
 	box-shadow:inset 0px 1px 3px 0px #141414;
@@ -22,7 +21,6 @@ h2
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:sans-serif;
 	font-size:20px;
 	font-weight:bold;
 	padding:15px 26px;
