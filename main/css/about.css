@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    
     text-align: center;
     overflow-x: hidden;
 }
@@ -31,8 +32,7 @@ body, html {
   top:1px;
 }
 body {
-  
-  background: linear-gradient(#09101f,#CBD0D8);
+  background: linear-gradient(#09101f,#09101f 86.5%,#CBD0D8);
   overflow: linear-gradient(#CBD0D8,#09101f);
 }
 h1
@@ -51,7 +51,7 @@ h1
 }
 p{
   color: white;
-  font-size: 3vw;
+  font-size: 4vw;
   text-shadow: 2px 2px 1px rgb(7, 1, 1);
   animation: fadeInAnimation ease 10s
 

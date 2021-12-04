@@ -9,7 +9,7 @@ h2
 {
   color: white;
   font-size: 30px;
-  text-shadow: 3px 3px 1px rgb(7, 1, 1);
+  text-shadow: 1px 1px 1px rgb(7, 1, 1);
   
 }
 .myButton {
@@ -152,7 +152,7 @@ h2 {
 
 body {
   background: linear-gradient(#09101f,#CBD0D8 );
-  animation: fadeInAnimation ease 10s;
+  animation: fadeInAnimation ease 8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   /* animation-duration: 10s; */

@@ -33,7 +33,8 @@ h1
 }
 body {
     background: linear-gradient(#09101f,#CBD0D8 );
-    animation: fadeInAnimation ease 10s;
+    overflow-x: linear-gradient(#CBD0D8, #09101f);
+    animation: fadeInAnimation ease 8s;
     /* animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; */
@@ -41,6 +42,7 @@ body {
     /*opacity: 10;
     transition: opacity 5s;
     margin: 0; */
+    background-size: auto;
   }
   @keyframes fadeInAnimation {
     0% {
@@ -90,7 +92,7 @@ body {
       margin: 0;
       line-height: 50px;
       text-align: center;
-      animation: flyinfromright 3s ease-out 
+      animation: flyinfromright 2s ease-out 
     }
 
     @keyframes flyinfromright{
@@ -115,7 +117,7 @@ body {
         margin: 0;
         line-height: 50px;
         text-align: center;
-        animation: flyinfromleft 3s ease-out 
+        animation: flyinfromleft 2s ease-out 
       }
   
       /* @keyframes flyinfromleft{
@@ -165,7 +167,7 @@ body {
         margin: 0;
         line-height: 50px;
         text-align: center;
-        animation: flyinfromright2 3s ease-out 
+        animation: flyinfromright2 2s ease-out 
       }
 
       @keyframes flyinfromright2{
@@ -177,4 +179,42 @@ body {
         }
     }
   
+    *{
+      padding: 0;
+      
+      box-sizing: border-box;
+  }
+  
+  .wrapper{
+      width: 40%;
+      min-width: 570px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      left: 50%;
+      top: 50%;
+  }
+  .container{
+      width: 75vmin;
+      padding: 30px 30px 50px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+      margin: 20px auto;
+      margin-top: 20px auto;
+      margin-bottom: 20px auto;
+  } 
+  .container *{
+      font-family: "Poppins",sans-serif;
+      color: black;
+      font-weight: 500;
+  }
+  
+  
+  .details{
+      width: 100%;
+      display: flex;  
+      justify-content: space-between;
+      margin-bottom: 10px;
+  }
+
 
